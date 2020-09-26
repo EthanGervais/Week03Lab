@@ -1,5 +1,5 @@
 <%-- 
-    Document   : agecalculator
+    Document   : ageCalculatorForm
     Created on : 22-Sep-2020, 7:59:28 PM
     Author     : ethan
 --%>
@@ -14,8 +14,10 @@
     <body>
         <h1>Age Calculator</h1>
         <form method="post" action="age">
-            Enter your age: <input type="text" name="age"><br>
-            <input type="submit" value="Age next birthday">
+            Enter your age: <input type="text" name="currentAge" value="${age}"><br>
+            <input type="submit" value="Age next birthday"><br>
         </form>
+            <p>${message}</p>
+            <a href="./arithmeticCalculatorForm">Arithmetic Calculator</a>
     </body>
 </html>
